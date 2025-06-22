@@ -1,0 +1,10 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Audio/video files
+*.mp4
+*.wav
+
+# Workspace outputs
+workspace/
