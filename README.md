@@ -36,11 +36,19 @@ A local, privacy-respecting tool that **transcribes and summarizes videos** usin
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/ai-video-summarizer.git
-cd ai-video-summarizer
+git clone https://github.com/Shashankk002/AI-video-summarizer.git
+cd AI-video-summarizer.git
 
-# Set up environment
-pip install -r requirements.txt  # optional if you want to add one
+# (Recommended) Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install required packages
+pip install streamlit moviepy yt-dlp faster-whisper
+
+# Optional (for summarization)
+ Make sure Ollama and LLaMA 3 are installed:
+https://ollama.com/library/llama3
 
 # Run the app
 streamlit run app.py
