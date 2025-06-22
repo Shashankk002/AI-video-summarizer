@@ -17,7 +17,7 @@ A local, privacy-respecting tool that **transcribes and summarizes videos** usin
 
 ## 📸 Demo
 
-![screenshot](workspace/screenshot.png) <!-- Add a screenshot if you like -->
+![App demo](demo.gif)
 
 ---
 
