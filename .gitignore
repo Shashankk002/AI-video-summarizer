@@ -7,4 +7,4 @@ __pycache__/
 *.wav
 
 # Workspace outputs
-workspace/
+workspace/.DS_Store
